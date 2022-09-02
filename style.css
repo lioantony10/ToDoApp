@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background: rgb(102, 100, 100);
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: #000000 1px 3px 3px;
+}
+
+.container {
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background: rgb(216, 213, 213);
+}
+
+.buttonContainer {
+    background: rgb(156, 146, 167);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.submit {
+    width: 60px;
+    text-align: center;
+    padding: 8px;
+    background-color: #545757;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0px;
+    position: relative;
+}
+
+.submit:hover{
+    background-color: #ffffff;
+    color: #545757;
+    cursor: pointer;
+}
+
+.btn{
+    width: 90px;
+    padding: 6px;
+    padding-right: 5px;
+    background-color: #00ffff;
+    border: 0px;
+    margin-right: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+}
+
+.active{
+    background-color: rgb(248, 141, 1);
+    border-radius: 5px;
+}
+
+.formContainer {
+    padding: 20px;
+    background-color: rgb(165, 172, 179);
+    text-align: center;
+}
+
+input[type="text"] {
+    border: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.inputContainer {
+    background-color: rgb(194, 187, 179);
+    min-height: 340px;
+    max-height: 340px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.lines .list-row {
+    border: 1px solid #918e88;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    word-break: break-all;
+    position: relative;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.list-num{
+    padding-top: 3px;
+    font-weight: bolder;
+}
+
+.list-data {
+    width: 100%;
+    text-align: justify;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.edit-todo,
+.remove-todo {
+    padding: 5px;
+    visibility: hidden;
+}
+
+.inputContainer .lines .list-row:hover .edit-todo {
+    visibility: visible;
+}
+
+.inputContainer .lines .list-row:hover .remove-todo {
+    visibility: visible;
+}
+
+.inputContainer .lines .list-row .edit-todo:hover {
+    background: rgb(224, 214, 214);
+    padding-top: 10px;
+}
+
+.inputContainer .lines .list-row .remove-todo:hover {
+    background: rgb(224, 214, 214);
+    padding-top: 10px;
+}
+
+.update-todo{
+    padding: 5px;
+}
+
+.inputContainer .lines .list-row .update-todo:hover {
+    background: rgb(224, 214, 214);
+    padding-top: 10px;
+}
+
+.submit2{
+    float: right;
+    margin-top: 5px;
+    width: 25px;
+    overflow: hidden;
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 33%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: #000000 2px 2px;
+}
+
+h4{
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    background-color: #e6e6e6;
+    padding: 3px;
+}
